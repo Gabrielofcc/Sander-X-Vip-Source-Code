@@ -1,14 +1,16 @@
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Cat558-uz/Testaaa/refs/heads/main/LibTeste.txt"))()
+local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Star-dos-scripts/Redzhubui/refs/heads/main/Redzhubui.lua"))()
+workspace.FallenPartsDestroyHeight = -math.huge
 
-local Window = redzlib:MakeWindow({
-    Title = "Astazinho DEV | brookhaven",
-    SubTitle = "| beta script  ASTA ",
-    SaveFolder = "ConfigFolderArcs"
+local Window = Libary:MakeWindow({
+     Title = "Chaos Hub | Brookhaven RP ",
+     SubTitle = "by: Luscaa and venom",
+     LoadText = "Carregando Chaos Hub",
+     Flags = "ChaosHub_Broookhaven"
 })
-
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://119245873411783", BackgroundTransparency = 7 },
-    Corner = { CornerRadius = UDim.new(0, 8) },
+     Button = { Image = "rbxassetid://131669852271916", BackgroundTransparency =
+0 },
+     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
 local InfoTab = Window:MakeTab({ Title = "Info", Icon =
